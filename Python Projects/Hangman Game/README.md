@@ -1,6 +1,6 @@
 # Hangman Game
 
-This is a Python Console Project **Hangman Game**. The code demonstrates file I/O, control flow, input validation, error handling, modular design, and ASCII art rendering.
+This is a Python Console Project **Hangman Game**. The code demonstrates file I/O, control flow, input validation, error handling, docstring, and ASCII art.
 
 ---
 
@@ -45,8 +45,6 @@ python hangman.py
 ## Bonus Features Added
 
 * ✅ **Hint System**: If the player makes 4 wrong guesses, one letter is automatically revealed.
-* ✅ **ASCII Art**: Drawing of hangman stages with increasing wrong guesses.
-* ✅ **Formatted End Messages**: Clean boxed win/loss result .
 * ✅ **Exit**: Player can type `exit` or use `Ctrl+C` to quit anytime.
 
 ---
@@ -54,7 +52,6 @@ python hangman.py
 ## Known Limitations or bugs
 
 * Words must be present in `words.txt` with 5 or 6 letters.
-* System gives **only one automatic hint** (on 4th wrong guess).
 * Does not support multiplayer or custom word entry yet.
 
 ---

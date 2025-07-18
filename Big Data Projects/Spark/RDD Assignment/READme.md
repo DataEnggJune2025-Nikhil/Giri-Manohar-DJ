@@ -3,6 +3,19 @@
 
 Spark project to analyze dataset of social network users to compute the **average number of friends per age group** using **pure RDD operations**.
 
+---
+
+### File Structure
+
+```
+.
+├── average_friends_by_age.csv   # Output file
+├── RDD_Assignment.ipynb
+├── rdd_assignment.py            #Script
+├── fakefriends.csv              # Input dataset
+└── READme.md
+```
+
 ### Dataset
 
 **File:** `fakefriends.csv`
@@ -90,31 +103,9 @@ To **compute the average number of friends per age**:
 (24, 233.8)
 ...
 ```
-
 ---
 
-### 🧠 Key Concepts
-
-* **`mapValues()`**: Adds a count placeholder to support averaging.
-* **`reduceByKey()`**: Sums total friends and counts per age.
-* **`mapValues()`** (again): Computes final averages.
-
----
-
-### 📂 File Structure
-
-```
-.
-├── average_friends_by_age.csv   # Output file
-├── RDD_Assignment.ipynb
-├── rdd_assignment.py            #Script
-├── fakefriends.csv              # Input dataset
-└── READme.md
-```
-
----
-
-### ▶️ Running the Script
+### Run the Script
 
 1. Place `fakefriends.csv` in the same directory.
 2. Run with Spark:

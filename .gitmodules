@@ -1,0 +1,3 @@
+[submodule "SQL Projects/Covid_ETL_pipeline"]
+	path = SQL Projects/Covid_ETL_pipeline
+	url = https://github.com/ManoharVit/Covid_ETL_pipeline.git
